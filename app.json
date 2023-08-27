@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#13131A"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -29,6 +29,11 @@
     },
     "experiments": {
       "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be9131ff-a855-4ed8-b6f8-52666ad02fe1"
+      }
     }
   }
 }
