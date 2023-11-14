@@ -6,8 +6,18 @@
     "preview": {
       "android": {
         "distribution": "internal"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "channel": "preview",
+      "env": {
+        "EXPO_PUBLIC_WEATHER_APP_ID": "https://openweathermap.org/api"
       }
     },
-    "production": {}
+
+    "production": {
+      "channel": "production"
+    }
   }
 }

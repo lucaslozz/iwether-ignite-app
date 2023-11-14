@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
@@ -34,6 +35,10 @@
       "eas": {
         "projectId": "be9131ff-a855-4ed8-b6f8-52666ad02fe1"
       }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/be9131ff-a855-4ed8-b6f8-52666ad02fe1"
     }
   }
 }
